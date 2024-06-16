@@ -5,6 +5,7 @@ on:
     - cron: '0 * * * *' # Runs every hour
 
 jobs:
+  
   update_offsets:
     runs-on: ubuntu-latest
 
